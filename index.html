@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Grace Kennett Foundation - Leading burn care hospital in Madurai. Donate to Save a Child program, support hospital equipment, book appointments online." />
+    <meta name="keywords" content="burn care hospital Madurai, child adoption, medical donations, support hospital, HBOT, plastic surgery, trauma center" />
+    <meta name="theme-color" content="#FF6B35" />
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <link rel="canonical" href="https://gkfmadurai.in/" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://gkfmadurai.in/" />
+    <meta property="og:title" content="Grace Kennett Foundation - Gift Life, Save Life" />
+    <meta property="og:description" content="Leading burn care hospital in Madurai. Donate to Save a Child & support hospital campaigns. Book appointments online." />
+    <meta property="og:image" content="https://gkfmadurai.in/assets/logo2.png" />
+    <meta property="og:site_name" content="Grace Kennett Foundation" />
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://gkfmadurai.in/" />
+    <meta name="twitter:title" content="Grace Kennett Foundation - Gift Life, Save Life" />
+    <meta name="twitter:description" content="Burn care hospital in Madurai. Donate to Save a Child, Support Hospital campaigns." />
+    <meta name="twitter:image" content="https://gkfmadurai.in/assets/logo2.png" />
+    
+    <!-- Preload first hero banner — fetched before JS executes -->
+    <link rel="preload" as="image" href="/banner1.webp" type="image/webp" fetchpriority="high" />
+
+    <!-- Preconnect to critical domains -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://www.googletagmanager.com" />
+    <link rel="preconnect" href="https://www.google-analytics.com" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./src/assets/logo2.png" />
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-M2NR281ME8"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-M2NR281ME8', {
+        'page_path': window.location.pathname,
+        'send_page_view': true,
+        'cookie_flags': 'SameSite=None;Secure',
+        'anonymize_ip': true,
+        'allow_google_signals': true,
+        'allow_ad_personalization_signals': false
+      });
+      gtag('config', 'AW-18096209673');
+      window.trackEvent = function(eventName, eventParams) {
+        gtag('event', eventName, eventParams);
+        
+      };
+    </script>
+
+    <!-- JSON-LD Structured Data (MedicalOrganization + Charity) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MedicalOrganization",
+      "name": "Grace Kennett Foundation",
+      "alternateName": "GKF",
+      "url": "https://gkfmadurai.in",
+      "logo": "https://gkfmadurai.in/assets/logo2.png",
+      "image": "https://gkfmadurai.in/assets/logo2.png",
+      "description": "Leading burn care hospital in Madurai providing specialized medical services including Burns Care, HBOT, Dialysis, Skin Bank, Plastic Surgery, and charity programs.",
+      "medicalSpecialty": [
+        "Burns Care",
+        "Plastic Surgery",
+        "Nephrology",
+        "Hyperbaric Medicine",
+        "General Surgery",
+        "Paediatrics",
+        "Orthopaedics"
+      ],
+      "hasMap": "https://www.google.com/maps/place/Grace+Kennett+Foundation/@9.9174499,78.1057558,15z",
+      "openingHours": ["Mo-Fr 08:00-20:00", "Sa-Su 08:00-20:00"],
+      "sameAs": [
+        "https://www.facebook.com/gkfmadurai",
+        "https://www.instagram.com/gkfmadurai",
+        "https://twitter.com/GKFMadurai"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "Emergency",
+        "telephone": "+91-4522601767",
+        "availableLanguage": ["English", "Tamil"]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "8, Kennett Road",
+        "addressLocality": "Madurai",
+        "addressRegion": "Tamil Nadu",
+        "postalCode": "625016",
+        "addressCountry": "IN"
+      }
+    }
+    </script>
+
+    <!-- Charity Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CharityEvent",
+      "name": "Save a Child Program",
+      "description": "Charity program supporting abandoned children with shelter, nutrition, healthcare, education and adoption services.",
+      "url": "https://gkfmadurai.in/save-child",
+      "organizer": {
+        "@type": "Organization",
+        "name": "Grace Kennett Foundation"
+      }
+    }
+    </script>
+
+    <title>Grace Kennett Foundation - Gift Life, Save Life | Burn Care Hospital Madurai</title>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
